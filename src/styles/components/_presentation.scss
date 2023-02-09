@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#30e6e6;
+    
+    
+}
+.centrer{
+    text-align: center;
+}
+body{
+  display: block;
+  position: relative;
+  min-height: 100vh ;
+  background-color:#000;
+
+
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  background-image: url(../../assets/img/wallall3.gif);
+  background-size:contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment:fixed;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  
+}
+
+.saut0{
+    height: 20px;
+}
+.saut{
+    height: 45px;
+}
+.saut2{
+    height: 100px;
+}
+.saut3{
+    height: 140px;
+}
+
+.logo
+{
+    color: #91fcfc;
+    font-weight: 700;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.cestmoi {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  d {
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    text-underline-offset: 11px;
+    text-decoration-thickness: 4px;
+    
+  }
+  .cestmoipres {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+  }
+  .moi{
+    height: 45px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.quisuisje{
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    font-size: 20px;
+
+}
+.flou{
+    background: rgba(255, 255, 255, 0.178) ;
+    border-radius: 10%;
+
+}
+.affich2{
+    height:10px;
+    text-align: center;
+}
+.exppro
+{
+    font-size: 15px;
+}
+.gauche
+{
+    text-align: left;
+}
+h1 {
+    font-size: 50px;
+  }
+
+  #typewriter {
+    color: #0072ef;
+    font-weight: bold;
+  }
+
+  #cursor {
+    color: #0072ef;
+    animation: blink 1s linear infinite;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 1000%;
+    }
+    50% {
+      opacity: 10%;
+    }
+  }
+  .card {
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    border-radius: 2%;
+    border: solid rgb(39, 158, 167) !important;
+    box-shadow: 1px 2px 30px 3px rgb(39, 158, 167)  ;
+    
+  }
+
+
+
+  
