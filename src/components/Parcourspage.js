@@ -59,6 +59,8 @@ const Parcourspage = () => {
                     </button>
                   </a>
                 </div>
+                          {/*Card pour le Bac*/}
+
                                 <div className="col">
                 <br></br>
             
