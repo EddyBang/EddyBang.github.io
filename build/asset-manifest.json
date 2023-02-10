@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BanggEddy/ReactPortfolio/static/css/main.f0bccef1.css",
+    "main.js": "/BanggEddy/ReactPortfolio/static/js/main.fae7ef72.js",
+    "static/media/wallall3.gif": "/BanggEddy/ReactPortfolio/static/media/wallall3.709bebb9985a1c37de3d.gif",
+    "static/media/main.jpg": "/BanggEddy/ReactPortfolio/static/media/main.2621b0ff11cbf1dac0f3.jpg",
+    "index.html": "/BanggEddy/ReactPortfolio/index.html",
+    "main.f0bccef1.css.map": "/BanggEddy/ReactPortfolio/static/css/main.f0bccef1.css.map",
+    "main.fae7ef72.js.map": "/BanggEddy/ReactPortfolio/static/js/main.fae7ef72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0bccef1.css",
+    "static/js/main.fae7ef72.js"
+  ]
+}
