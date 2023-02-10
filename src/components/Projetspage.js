@@ -1,5 +1,8 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
+
 const Projetspage = () => {
   return (
     <div>
@@ -15,14 +18,23 @@ const Projetspage = () => {
           <div className="centrer">
             <div class="row" style={{ height: "380px" }}>
               <div className="col">
-                <a href="harrypotter">
-                  <img
+
+
+
+<NavLink
+          to="/harrypotter"
+
+        >
+          
+          <img
                     src="./harrypotter.jpg"
                     alt="harrypotter"
                     style={{ width: "45%", borderRadius: "5%",              border: "solid rgb(39, 158, 167) ",
                     boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)", }}
                   ></img>
-                </a>
+        </NavLink>
+
+                
 
                 <div class="saut0"></div>
                 <p
@@ -43,14 +55,17 @@ const Projetspage = () => {
               </div>
               <div className="col">
                 <div class="centrer">
-                  <a href="haribo">
+                <NavLink
+          to="/haribo"
+
+        >
                     <img
                       src="./bonbon.jpg"
                       alt="haribo"
                       style={{ width: "45%", borderRadius: "5%",              border: "solid rgb(39, 158, 167) ",
                       boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)", }}
                     ></img>
-                  </a>
+                  </NavLink>
                   <div class="saut0"></div>
                   <p
                     style={{
@@ -73,14 +88,17 @@ const Projetspage = () => {
 
             <div class="row">
               <div className="col">
-                <a href="fiteddypage">
+              <NavLink
+          to="/fiteddypage"
+
+        >
                   <img
                     src="./mvc.png"
                     alt="fiteddy"
                     style={{ width: "50%", borderRadius: "5%",              border: "solid rgb(39, 158, 167) ",
                     boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)", }}
                   ></img>
-                </a>
+                </NavLink>
                 <div class="saut0"></div>
                 <p
                   style={{
@@ -101,14 +119,17 @@ const Projetspage = () => {
               </div>
               <div className="col">
                 <div class="centrer">
-                  <a href="sicilylinespage">
+                <NavLink
+          to="/sicilylinespage"
+
+        >
                     <img
                       src="./frontapp.png"
                       alt="Sicilylines"
                       style={{ width: "80%", borderRadius: "5%",              border: "solid rgb(39, 158, 167) ",
                       boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)", }}
                     ></img>
-                  </a>
+                 </NavLink>
                   <div class="saut0"></div>
                   <p
                     style={{
