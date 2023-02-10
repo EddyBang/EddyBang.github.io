@@ -17,7 +17,7 @@ const Presentationpage = () => {
           <div className="col">
             <div class="moi">
               <b>
-                I am <span id="typewriter"></span>
+                I am <span id="typewriter"> David LI</span>
                 <span id="cursor">|</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,15 @@ const Presentationpage = () => {
             <div class="quisuisje">
               <c>Etudiant (Developpeur)</c>
             </div>
-
+           
+            <img src="./html.png" alt="logo react" style={{width:"8%"}}></img>
+              <a
+                href="https://banggeddy.github.io/"
+                style={{ textDecoration: "none", color: "#00BFFF" }}
+              >
+                <button style={{width:"auto", fontSize:"12px"}}> Naviguer le Portfolio en HTML </button>
+              </a>
+              <br></br> <br></br>
             <div className="cestmoi">
               {" "}
               <d> C'est moi </d>
@@ -126,6 +134,7 @@ const Presentationpage = () => {
               >
                 <button style={{width:"auto", fontSize:"12px"}}>@cookie02_10 </button>
               </a>
+              
               <br></br>
               <br></br> <br></br>
               <div className="centrer">
