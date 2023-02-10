@@ -107,7 +107,7 @@ const Parcourspage = () => {
           </div>
           <br></br>
        
-{/*Card pour le bac*/}
+{/*Card pour title Mes expériences professionnelles*/}
 
 
 
