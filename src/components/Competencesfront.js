@@ -13,7 +13,7 @@ const Competencefront = () => {
     <div class="row">
           {/*Développements */}
         <div class="col">
-            <p style={{fontSize: "20px",height: "60px",fontWeight:"bold"}}>Développement</p>
+            <p style={{fontSize: "20px",height: "60px",fontWeight:"bold"}}>Développements</p>
             <div class="row">
                 <div class="col">
                     <img src="./vscode.png" style={{width : "100px", height : "100px"}}></img>
@@ -57,7 +57,24 @@ const Competencefront = () => {
                 <div class="col">
                     <img src="./blender.png" style={{width : "120px", height : "110px"}}></img>
                 </div>
-
+                <div class="col">
+                    <img src="./nodejs.png" style={{width : "180px", height : "110px"}}></img>
+                </div>
+                                <div class="col">
+                    <img src="./mariadb.png" style={{width : "350px", height : "110px"}}></img>
+                </div>
+                                <div class="col">
+                    <img src="./react.png" style={{width : "115px", height : "100px"}}></img>
+                </div>
+                <div class="col">
+                    <img src="./mongodb.png" style={{width : "120px", height : "110px"}}></img>
+                </div>
+                <div class="col">
+                    <img src="./linux.png" style={{width : "120px", height : "110px"}}></img>
+                </div>
+                <div class="col">
+                    <img src="./symfony.png" style={{width : "110px", height : "120px"}}></img>
+                </div>
             </div>
 
             <br></br><br></br><br></br>
@@ -66,9 +83,9 @@ const Competencefront = () => {
         </div>
 
         {/*Réseaux/Cybersécurité*/}
-
+        <div className="row">
         <div class="col">
-            <p style={{fontSize: "20px",height: "60px",fontWeight:"bold"}}>Réseau/Cybersécurité</p>
+            <p style={{fontSize: "20px",height: "60px",fontWeight:"bold"}}>Réseaux/Cybersécurités</p>
             <div class="row">
                 <div class="col">
                     <img src="./rgpd.png" style={{width : "140px", height : "100px"}}></img>
@@ -89,6 +106,7 @@ const Competencefront = () => {
             <p style={{fontSize: "20px",height: "60px",fontWeight:"bold"}}>Langues</p>
             <div class="row">
                 <div class="col">
+                
                     Anglais-Niveau B1
                 </div>
                 <div class="col">
@@ -97,6 +115,9 @@ const Competencefront = () => {
 
 
             </div>
+
+        </div>
+
 
 
 
