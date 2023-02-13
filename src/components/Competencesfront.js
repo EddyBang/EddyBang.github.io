@@ -3,10 +3,10 @@ import React from 'react';
 const Competencefront = () => {
     return (
         <div>
-            <div class="affich" style={{height : "1100px"}}>
-            <div class="centrer">
-            <div class="container">
-    <div class="moi" style={{height: "120px",  textAlign: "center"}}>
+            <div className="affich" style={{height : "1100px"}}>
+            <div className="centrer">
+            <div className="container">
+    <div className="moi" style={{height: "120px",  textAlign: "center"}}>
         <d><b style={{fontSize:"20px"}}> Mes Compétences
             </b></d>
     </div>

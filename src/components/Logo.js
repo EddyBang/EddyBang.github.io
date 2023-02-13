@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div className="logo">
       <img src="./logo192.png" alt="logo react"></img>
-      <khhu>Portfolio</khhu>
+      Portfolio
     </div>
   );
 };
