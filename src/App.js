@@ -10,6 +10,7 @@ import Projetsprofessionnels from "./pages/Projetsprofessionnels";
 import Présentation from "./pages/Présentation";
 import Sicilylinespage from "./pages/Sicilylinespage";
 import Competences from "./pages/Competences";
+import JapaShop from "./pages/Japashop";
 
 /*Si jamais ton chemin c'est path = rien, il va nous amener dans Home.js*/
 /*Si jamais ton chemin c'est path = /about, il va nous amener dans About.js*/
@@ -32,6 +33,8 @@ const App = () => {
           <Route path="/fiteddypage" element={<Fiteddypage />} />
           <Route path="/sicilylinespage" element={<Sicilylinespage />} />
           <Route path="/competences" element={<Competences />} />
+          <Route path="/japashop" element={<JapaShop />} />
+
         </Routes>
       </BrowserRouter>
     </div>
