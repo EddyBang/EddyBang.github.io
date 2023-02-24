@@ -148,6 +148,77 @@ const Projetspage = () => {
                 </div>
               </div>
             </div>
+            <div className="row">
+                  
+            <div className="col">
+                <div class="centrer">
+                  <NavLink to="/japashop">
+                    <img
+                      src="./japashop.png"
+                      alt="Japashop"
+                      style={{
+                        width: "80%",
+                        borderRadius: "5%",
+                        border: "solid rgb(39, 158, 167) ",
+                        boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
+                      }}
+                    ></img>
+                  </NavLink>
+                  <div class="saut0"></div>
+                  <p
+                    style={{
+                      fontSize: "24px",
+                      height: "30px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Japashop
+                  </p>
+
+                  <div class="exppro">
+                    <p>
+                      Site marchant permet de s'inscrire, se connecter en tant que membre ou admin, d'ajouter, modifier, supprimer des produits.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div class="centrer">
+                  <NavLink to="/portfolioreact">
+                    <img
+                      src="./portfolioreact1.png"
+                      alt="PortfolioreactJSs"
+                      style={{
+                        width: "80%",
+                        borderRadius: "5%",
+                        border: "solid rgb(39, 158, 167) ",
+                        boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
+                      }}
+                    ></img>
+                  </NavLink>
+                  <div class="saut0"></div>
+                  <p
+                    style={{
+                      fontSize: "24px",
+                      height: "30px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Sicilylines
+                  </p>
+
+                  <div class="exppro">
+                    <p>
+                    Portfolio fait avec le framework ReactJS. 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
           </div>
         </div>
       </div>
