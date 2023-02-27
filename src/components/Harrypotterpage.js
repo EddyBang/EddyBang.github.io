@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Harrypotterpage = () => {
   return (
@@ -11,15 +12,15 @@ const Harrypotterpage = () => {
                 class="affich"
                 style={{ fontSize: "15px", height: "40px", fontWeight: "bold" }}
               >
-                <a
-                  href="projets"
+                <NavLink
+                  to="/projets"
                   style={{
                     color: "#0066b2",
                     textDecoration: "none !important",
                   }}
                 >
                   Projets
-                </a>
+                </NavLink>
                 Harry Potter
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
