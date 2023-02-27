@@ -43,7 +43,7 @@ const Projetspage = () => {
 
                 <div class="exppro">
                   <p>
-                    Création d'un site en HTML et CSS avec le thème de Harry
+                    Création d'un site en HTML et CSS avec le thème d'Harry
                     Potter.
                   </p>
                 </div>
@@ -75,7 +75,7 @@ const Projetspage = () => {
                   <div class="exppro">
                     <p>
                       Site marchand de bonbon pour mettre en pratique nos
-                      connaissance en PHP.
+                      connaissances en PHP.
                     </p>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ const Projetspage = () => {
                 <div class="exppro">
                   <p>
                     Site web de musculation pour mettre en pratique nos
-                    connaissance en Java et PHP pour faire un MVC
+                    connaissances en PHP pour faire un MVC
                   </p>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Projetspage = () => {
 
                   <div class="exppro">
                     <p>
-                      Application pour faire des réservation de traversée créer
+                      Application pour faire des réservations de traversée créer
                       sur C#.
                     </p>
                   </div>
@@ -149,8 +149,7 @@ const Projetspage = () => {
               </div>
             </div>
             <div className="row">
-                  
-            <div className="col">
+              <div className="col">
                 <div class="centrer">
                   <NavLink to="/japashop">
                     <img
@@ -177,7 +176,8 @@ const Projetspage = () => {
 
                   <div class="exppro">
                     <p>
-                      Site marchant permet de s'inscrire, se connecter en tant que membre ou admin, d'ajouter, modifier, supprimer des produits.
+                      Site marchant pour mettre en pratique nos connaissances
+                      sur NodeJS et React
                     </p>
                   </div>
                 </div>
@@ -204,21 +204,15 @@ const Projetspage = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Sicilylines
+                    Portoflio en React
                   </p>
 
                   <div class="exppro">
-                    <p>
-                    Portfolio fait avec le framework ReactJS. 
-                    </p>
+                    <p>Portfolio fait avec le framework React.</p>
                   </div>
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </div>

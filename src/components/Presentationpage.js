@@ -5,7 +5,6 @@ const Presentationpage = () => {
     <div>
       <div className="saut"></div>
       <div className="container">
-        
         <div className="row">
           <div className="col" style={{ width: "100%" }}>
             <img
@@ -32,25 +31,29 @@ const Presentationpage = () => {
                 </svg>
               </b>
             </div>
-
             <div class="quisuisje">
               <c>Etudiant (Developpeur)</c>
             </div>
-           
-            <img src="./html.png" alt="logo react" style={{width:"8%"}}></img>
-              <a
-                href="https://banggeddy.github.io/"
-                style={{ textDecoration: "none", color: "#00BFFF" }}
-              >
-                <button style={{width:"auto", fontSize:"12px"}}> Naviguer le Portfolio en HTML </button>
-              </a>
-              <br></br> <br></br>
+            <img
+              src="./html.png"
+              alt="logo react"
+              style={{ width: "8%" }}
+            ></img>
+            <a
+              href="https://banggeddy.github.io/"
+              style={{ textDecoration: "none", color: "#00BFFF" }}
+            >
+              <button style={{ width: "auto", fontSize: "12px" }}>
+                {" "}
+                Naviguer le Portfolio en HTML{" "}
+              </button>
+            </a>
+            <br></br> <br></br>
             <div className="cestmoi">
               {" "}
               <d> C'est moi </d>
             </div>
             <br></br>
-
             <div className="cestmoipres">
               Je suis David LI, j'ai 20 ans et je suis actuellement en seconde
               année de BTS SIO option SLAM (Solutions Logicielles et Application
@@ -78,10 +81,9 @@ const Presentationpage = () => {
               </svg>
             </div>
             <div class="cestmoipres">
-              Musculation en salle, Codage, Activité de conception de sites
+              Musculation en salles, Codage, Activité de conception de sites
               Internet, Intérêt pour les produits high-tech
             </div>
-
             <div class="quisuisje">
               <br></br>
 
@@ -115,7 +117,9 @@ const Presentationpage = () => {
                 href="https://github.com/BanggEddy"
                 style={{ textDecoration: "none", color: "#00BFFF" }}
               >
-                <button style={{width:"auto", fontSize:"12px"}}>@BanggEddy </button>
+                <button style={{ width: "auto", fontSize: "12px" }}>
+                  @BanggEddy{" "}
+                </button>
               </a>
               <br></br> <br></br>
               <svg
@@ -132,9 +136,10 @@ const Presentationpage = () => {
                 href="https://www.instagram.com/cookie02_10/"
                 style={{ textDecoration: "none", color: "#00BFFF" }}
               >
-                <button style={{width:"auto", fontSize:"12px"}}>@cookie02_10 </button>
+                <button style={{ width: "auto", fontSize: "12px" }}>
+                  @cookie02_10{" "}
+                </button>
               </a>
-              
               <br></br>
               <br></br> <br></br>
               <div className="centrer">

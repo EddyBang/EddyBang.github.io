@@ -75,11 +75,7 @@ const Japashopfront = () => {
                 </div>
               </div>
 
-              <p>
-                Stack : <img src="react.png" style={{ width: "4%" }}></img> /
-                <img src="mongodb.png" style={{ width: "5%" }}></img>/ ReactJS /
-                SASS{" "}
-              </p>
+              <p>Stack : NodeJS / MongoDB / ReactJS / SCSS </p>
             </div>
           </div>
         </div>

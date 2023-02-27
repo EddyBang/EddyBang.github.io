@@ -89,10 +89,11 @@ const Haribofront = () => {
             src="./bonbon.jpg"
             alt="bonbonfront"
             style={{
-              width: "500px",
+              width: "550px",
               height: "400px",
               borderRadius: "5%",
-              boxShadow: "10px 10px 10px #aaaaaa",
+              border: "solid rgb(39, 158, 167) ",
+              boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
             }}
           ></img>
           <div class="saut"></div>
@@ -103,7 +104,8 @@ const Haribofront = () => {
               width: "600px",
               height: "400px",
               borderRadius: "5%",
-              boxShadow: "10px 10px 10px #aaaaaa",
+              border: "solid rgb(39, 158, 167) ",
+              boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
             }}
           ></img>
           <div class="saut"></div>
@@ -111,10 +113,11 @@ const Haribofront = () => {
             src="./bonbon3.jpg"
             alt="bonbonfront3"
             style={{
-              width: "600px",
+              width: "550px",
               height: "400px",
               borderRadius: "5%",
-              boxShadow: "10px 10px 10px #aaaaaa",
+              border: "solid rgb(39, 158, 167) ",
+              boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
             }}
           ></img>
         </div>
