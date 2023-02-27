@@ -39,12 +39,12 @@ const Haribofront = () => {
               <div class="container">
                 <div class="exppro">
                   <p>
-                    Site créer pour mettre en pratique nos premières
-                    connaissance de première année. Nous avons ici utilisé
-                    principalement du PHP pour créer des fonctionnalités tel
+                    Site crée pour mettre en pratique nos premières
+                    connaissances de première année. Nous avons ici utilisé
+                    principalement du PHP pour créer des fonctionnalités telles
                     qu'ajouter, modifier ou supprimer des bonbons de la base de
                     données. Nous pouvons aussi mettre des produits dans un
-                    panier où le prix total de tous les produits sont calculer.
+                    panier où le prix total de tous les produits est calculé.
                   </p>
                   <p>
                     Source:
