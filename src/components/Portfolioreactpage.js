@@ -88,7 +88,7 @@ const Portfolioreactpage = () => {
             style={{
               width: "800px",
               height: "400px",
-              borderRadius: "5%",
+              borderRadius: "6%",
               border: "solid rgb(39, 158, 167) ",
               boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
             }}
