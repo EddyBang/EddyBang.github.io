@@ -94,7 +94,7 @@ const Japashopfront = () => {
           ></img>
           <div class="saut"></div>
           <img
-            src="./japashop2.png"
+            src="./japashop2.Png"
             alt="bonbon2front"
             style={{
               width: "800px",
