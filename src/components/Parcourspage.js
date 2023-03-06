@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Parcourspage = () => {
   return (
@@ -152,14 +153,15 @@ const Parcourspage = () => {
                         de l'informatique.
                       </p>
                     </div>
-                    <a
-                      href="fiteddy"
-                      style={{ textDecoration: "none", color: "#00BFFF" }}
-                    >
+                    <NavLink
+          to="/fiteddypage"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+          style={{ textDecoration: "none", color: "#00BFFF" }}
+          >
                       <button style={{ width: "auto", fontSize: "12px" }}>
-                        Consulter le projet
+                      Consulter le projet
                       </button>
-                    </a>
+        </NavLink>
                   </div>
 
                   {/* Cards pour deuxième année*/}
@@ -198,14 +200,15 @@ const Parcourspage = () => {
                         avec ses frameworks et de la BDD MongoDB
                       </p>
                     </div>
-                    <a
-                      href="Vet"
-                      style={{ textDecoration: "none", color: "#00BFFF" }}
-                    >
+                    <NavLink
+          to="/japashop"
+          className={(nav) => (nav.isActive ? "nav-active" : "")}
+          style={{ textDecoration: "none", color: "#00BFFF" }}
+          >
                       <button style={{ width: "auto", fontSize: "12px" }}>
-                        Consulter le projet
+                      Consulter le projet
                       </button>
-                    </a>
+        </NavLink>
                   </div>
                 </div>
                 <br></br>
