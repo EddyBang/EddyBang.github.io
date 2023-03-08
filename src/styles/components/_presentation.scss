@@ -12,13 +12,12 @@
 body{
   display: block;
   position: relative;
-  min-height: 100vh ;
   background-color:#000;
   margin: 0;
-
+  z-index: 1;
 }
 
-body::after {
+.backgroundGif {
   content: '';
   position: absolute;
   background-image: url(../../assets/img/wallall3.gif);
@@ -97,7 +96,6 @@ body::after {
 
 }
 .affich2{
-    height:10px;
     text-align: center;
 }
 .exppro
@@ -131,11 +129,11 @@ h1 {
     }
   }
   .card {
-    background-color: transparent;
     transition: all 0.3s ease-in-out;
     border-radius: 2%;
     border: solid rgb(39, 158, 167) !important;
     box-shadow: 1px 2px 30px 3px rgb(39, 158, 167)  ;
+    background-color: rgba(49, 49, 49,0.3);
     
   }
 

@@ -19,6 +19,8 @@
 
         &:hover {
           color: $color-3;
+          color:rgb(139, 76, 180) !important       ;
+
         }
       }
     }
@@ -26,11 +28,12 @@
     .nav-active {
       position: relative;
 
+
       &::after {
         content: "";
         height: 4px;
         width: 0;
-        background: $color-1;
+        background:rgb(139, 76, 180)        ;
         position: absolute;
         border-radius: 10px;
         bottom: 0px;

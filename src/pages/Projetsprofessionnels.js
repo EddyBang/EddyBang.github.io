@@ -9,6 +9,7 @@ const Projetsprofessionnels = () => {
     <div>
       <Logo />
       <Navigation />
+      <div className="backgroundGif"></div>
       <div className="centrer">
         <div className="container">
           <div class="moi" style={{ height: "120px" }}>

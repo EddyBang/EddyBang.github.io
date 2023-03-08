@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Projetspage = () => {
   return (
     <div>
-      <div class="affich" style={{ height: "100px" }}>
+      <div class="affich">
         <div class="container">
           <div class="moi" style={{ height: "80px", fontSize: "20px" }}>
             <div className="centrer">
@@ -29,6 +29,10 @@ const Projetspage = () => {
                     }}
                   ></img>
                 </NavLink>
+
+                    <div className="backgroundGif">
+
+                    </div>
 
                 <div class="saut0"></div>
                 <p

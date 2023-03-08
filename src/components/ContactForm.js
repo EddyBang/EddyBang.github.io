@@ -24,6 +24,9 @@ const ContactForm = () => {
   }
   return (
     <div>
+                          <div className="backgroundGif">
+
+</div>
       <div class="moi" style={{ height: "50px", width: "43.2%" }}>
         <d>
           <b>Contact</b>
