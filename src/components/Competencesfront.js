@@ -3,9 +3,6 @@ import React from "react";
 const Competencefront = () => {
   return (
     <div>
-                          <div className="backgroundGif">
-
-</div>
       <div className="affich">
         <div className="centrer">
           <div className="container">

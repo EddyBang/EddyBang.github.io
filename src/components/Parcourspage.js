@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 const Parcourspage = () => {
   return (
     <div>
-      <div className="backgroundGif"></div>
       <div className="affich2">
         <div className="container">
           <div className="moi">

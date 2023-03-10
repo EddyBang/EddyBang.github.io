@@ -4,9 +4,6 @@ import { NavLink } from "react-router-dom";
 const Japashopfront = () => {
   return (
     <div>
-                          <div className="backgroundGif">
-
-</div>
       <div class="centrer">
         <div className="container">
           <div class="card" style={{ opacity: "1" }}>

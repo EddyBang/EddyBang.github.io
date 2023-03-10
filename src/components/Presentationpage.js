@@ -3,9 +3,6 @@ import React from "react";
 const Presentationpage = () => {
   return (
     <div>
-                          <div className="backgroundGif">
-
-</div>
       <div className="saut"></div>
       <div className="container">
         <div className="row">

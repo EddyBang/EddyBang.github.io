@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 const Portfolioreactpage = () => {
   return (
     <div>
-      <div className="backgroundGif"></div>
       <div class="centrer">
         <div className="container">
           <div class="card" style={{ opacity: "1" }}>

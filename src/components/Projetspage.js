@@ -30,10 +30,6 @@ const Projetspage = () => {
                   ></img>
                 </NavLink>
 
-                    <div className="backgroundGif">
-
-                    </div>
-
                 <div class="saut0"></div>
                 <p
                   style={{

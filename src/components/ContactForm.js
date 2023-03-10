@@ -24,9 +24,6 @@ const ContactForm = () => {
   }
   return (
     <div>
-                          <div className="backgroundGif">
-
-</div>
       <div class="moi" style={{ height: "50px", width: "43.2%" }}>
         <d>
           <b>Contact</b>
@@ -34,7 +31,7 @@ const ContactForm = () => {
         <c> Me :</c>
       </div>
       <div className="saut"></div>
-      <div class="container" style={{ height: "800px", textAlign: "left" }}>
+      <div class="container" style={{ height: "100px", textAlign: "left" }}>
         <div className="row">
           <div className="col">
             <img

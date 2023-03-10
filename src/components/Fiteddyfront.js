@@ -4,9 +4,6 @@ import { NavLink } from "react-router-dom";
 const Fiteddyfront = () => {
   return (
     <div>
-                          <div className="backgroundGif">
-
-</div>
       <div class="centrer">
         <div className="container">
           <div class="card" style={{ opacity: "1" }}>
