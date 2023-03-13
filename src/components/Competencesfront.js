@@ -105,7 +105,12 @@ const Competencefront = () => {
                       style={{ width: "120px", height: "110px" }}
                     ></img>
                   </div>
-
+                  <div class="col">
+                    <img
+                      src="./shell.png"
+                      style={{ width: "120px", height: "120px" }}
+                    ></img>
+                  </div>
                   <div class="col">
                     <img
                       src="./nodejs.png"
