@@ -63,7 +63,7 @@ const Parcourspage = () => {
                   <br></br>
 
                   <img
-                    src="./bac.png"
+                    src="./photo.png"
                     alt="bac"
                     style={{ width: "65%", borderRadius: "5%" }}
                   ></img>

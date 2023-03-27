@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 import { NavLink } from "react-router-dom";
 
 const Projetspage = () => {
+ 
   return (
     <div>
       <div class="affich">
@@ -27,6 +28,7 @@ const Projetspage = () => {
                       border: "solid rgb(39, 158, 167) ",
                       boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                     }}
+                    className="image"
                   ></img>
                 </NavLink>
 
@@ -221,3 +223,5 @@ const Projetspage = () => {
 };
 
 export default Projetspage;
+
+
