@@ -14,8 +14,9 @@ const Competencefront = () => {
                 <b style={{ fontSize: "20px" }}> Mes Compétences</b>
               </d>
             </div>
-            <div class="row">
-              {/*Développements */}
+
+            {/*Développement*/}
+            <div className="row">
               <div class="col">
                 <p
                   style={{
@@ -24,21 +25,9 @@ const Competencefront = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  Développements
+                  Back-End
                 </p>
                 <div class="row">
-                  <div class="col">
-                    <img
-                      src="./vscode.png"
-                      style={{ width: "100px", height: "100px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./vsmicrosoft.png"
-                      style={{ width: "180px", height: "110px" }}
-                    ></img>
-                  </div>
                   <div class="col">
                     <img
                       src="./php.png"
@@ -47,44 +36,26 @@ const Competencefront = () => {
                   </div>
                   <div class="col">
                     <img
-                      src="./github.png"
-                      style={{ width: "120px", height: "120px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./git.png"
-                      style={{ width: "100px", height: "100px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./bootstrap.png"
-                      style={{ width: "190px", height: "140px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./html.png"
+                      src="./mongodb.png"
                       style={{ width: "120px", height: "110px" }}
                     ></img>
                   </div>
                   <div class="col">
                     <img
-                      src="./mysql.png"
-                      style={{ width: "140px", height: "120px" }}
+                      src="./symfony.png"
+                      style={{ width: "110px", height: "120px" }}
                     ></img>
                   </div>
                   <div class="col">
                     <img
-                      src="./windesign.png"
-                      style={{ width: "140px", height: "120px" }}
+                      src="./nodejs.png"
+                      style={{ width: "180px", height: "110px" }}
                     ></img>
                   </div>
                   <div class="col">
                     <img
-                      src="./css.png"
-                      style={{ width: "120px", height: "120px" }}
+                      src="./mariadb.png"
+                      style={{ width: "350px", height: "110px" }}
                     ></img>
                   </div>
                   <div class="col">
@@ -107,20 +78,37 @@ const Competencefront = () => {
                   </div>
                   <div class="col">
                     <img
-                      src="./shell.png"
-                      style={{ width: "120px", height: "120px" }}
+                      src="./mysql.png"
+                      style={{ width: "140px", height: "120px" }}
+                    ></img>
+                  </div>
+                </div>
+
+                <br></br>
+                <br></br>
+                <br></br>
+              </div>
+              <div class="col">
+                <p
+                  style={{
+                    fontSize: "20px",
+                    height: "60px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Front-End
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="./html.png"
+                      style={{ width: "120px", height: "110px" }}
                     ></img>
                   </div>
                   <div class="col">
                     <img
-                      src="./nodejs.png"
-                      style={{ width: "180px", height: "110px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./mariadb.png"
-                      style={{ width: "350px", height: "110px" }}
+                      src="./sass.png"
+                      style={{ width: "100px", height: "100px" }}
                     ></img>
                   </div>
                   <div class="col">
@@ -131,8 +119,115 @@ const Competencefront = () => {
                   </div>
                   <div class="col">
                     <img
-                      src="./mongodb.png"
-                      style={{ width: "120px", height: "110px" }}
+                      src="./css.png"
+                      style={{ width: "120px", height: "120px" }}
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*Outils de sauvegardes/Logiciels*/}
+
+            <div className="row">
+              <div class="col">
+                <p
+                  style={{
+                    fontSize: "20px",
+                    height: "60px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Outils de sauvegardes
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="./github.png"
+                      style={{ width: "120px", height: "120px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./git.png"
+                      style={{ width: "100px", height: "100px" }}
+                    ></img>
+                  </div>
+                </div>
+
+                <br></br>
+                <br></br>
+                <br></br>
+              </div>
+              <div class="col">
+                <p
+                  style={{
+                    fontSize: "20px",
+                    height: "60px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Logiciels / IDE
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <img src="./postman.png" style={{ width: "100%" }}></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./windesign.png"
+                      style={{ width: "140px", height: "120px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./nodepade.png"
+                      style={{ width: "140px", height: "120px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./vscode.png"
+                      style={{ width: "100px", height: "100px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./vsmicrosoft.png"
+                      style={{ width: "180px", height: "110px" }}
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/*Réseaux/Cybersécurité*/}
+            <div className="row">
+              <div class="col">
+                <p
+                  style={{
+                    fontSize: "20px",
+                    height: "60px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Réseaux/Cybersécurités
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="./rgpd.png"
+                      style={{ width: "140px", height: "100px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./cnil.png"
+                      style={{ width: "140px", height: "100px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./cisco.png"
+                      style={{ width: "160px", height: "100px" }}
                     ></img>
                   </div>
                   <div class="col">
@@ -143,14 +238,8 @@ const Competencefront = () => {
                   </div>
                   <div class="col">
                     <img
-                      src="./symfony.png"
-                      style={{ width: "110px", height: "120px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./sass.png"
-                      style={{ width: "100px", height: "100px" }}
+                      src="./shell.png"
+                      style={{ width: "120px", height: "120px" }}
                     ></img>
                   </div>
                 </div>
@@ -159,64 +248,7 @@ const Competencefront = () => {
                 <br></br>
                 <br></br>
               </div>
-
-              {/*Réseaux/Cybersécurité*/}
-              <div className="row">
-                <div class="col">
-                  <p
-                    style={{
-                      fontSize: "20px",
-                      height: "60px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Réseaux/Cybersécurités
-                  </p>
-                  <div class="row">
-                    <div class="col">
-                      <img
-                        src="./rgpd.png"
-                        style={{ width: "140px", height: "100px" }}
-                      ></img>
-                    </div>
-                    <div class="col">
-                      <img
-                        src="./cnil.png"
-                        style={{ width: "140px", height: "100px" }}
-                      ></img>
-                    </div>
-                    <div class="col">
-                      <img
-                        src="./cisco.png"
-                        style={{ width: "140px", height: "100px" }}
-                      ></img>
-                    </div>
-                  </div>
-
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                </div>
-                <div class="col">
-                  <p
-                    style={{
-                      fontSize: "20px",
-                      height: "60px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Langues
-                  </p>
-                  <div class="row">
-                    <div class="col">Anglais-Niveau B1</div>
-                    <div class="col">Mandarin-Niveau C1</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="container">
-                {" "}
+              <div class="col">
                 <p
                   style={{
                     fontSize: "20px",
@@ -224,15 +256,33 @@ const Competencefront = () => {
                     fontWeight: "bold",
                   }}
                 >
-                  Certificats
+                  Langues
                 </p>
-                <div className="row">
-                  <div className="col">
-                    <img src="googlecertif.png" style={{ width: "100%" }}></img>
-                  </div>
-                  <div className="col">
-                    <img src="certifgoogle.png" style={{ width: "100%" }}></img>
-                  </div>
+                <div class="row">
+                  <div class="col">Anglais-Niveau B1</div>
+                  <div class="col">Mandarin-Niveau C1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="container">
+            <div className="row">
+              {" "}
+              <p
+                style={{
+                  fontSize: "20px",
+                  height: "60px",
+                  fontWeight: "bold",
+                }}
+              >
+                Certificats
+              </p>
+              <div className="row">
+                <div className="col">
+                  <img src="googlecertif.png" style={{ width: "100%" }}></img>
+                </div>
+                <div className="col">
+                  <img src="certifgoogle.png" style={{ width: "100%" }}></img>
                 </div>
               </div>
             </div>
