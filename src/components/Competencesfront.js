@@ -172,9 +172,7 @@ const Competencefront = () => {
                   <div class="col">
                     <img src="./postman.png" style={{ width: "100%" }}></img>
                   </div>
-                  <div class="col">
-                    <img src="./burp.png" style={{ width: "100%" }}></img>
-                  </div>
+
                   <div class="col">
                     <img
                       src="./windesign.png"
@@ -198,6 +196,9 @@ const Competencefront = () => {
                       src="./vsmicrosoft.png"
                       style={{ width: "180px", height: "110px" }}
                     ></img>
+                  </div>
+                  <div class="col">
+                    <img src="./burp.png" style={{ width: "70%" }}></img>
                   </div>
                 </div>
               </div>
