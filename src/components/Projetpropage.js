@@ -9,12 +9,11 @@ const Projetpropage = () => {
         <div class="moi" style={{ height: "100px" }}>
             <d>
               <b> Ecole intégrée</b>
-              <img src="/ipssi.png" style={{width:"5%"}}></img>
             </d>
           </div>
           <div className='col'>
           <div class="cestmoipres" style={{ height: "140px", width: "50%" }}>
-          Après avoir obtenu mon BTS SIO option SLAM en bac+2, j'ai l'intention de rejoindre l'école IPSSI pour poursuivre mes études en développement full-stack et devops en vue d'obtenir un bac+3. Par la suite, j'ai prévu de poursuivre mes études avec un master en développement, en IA et en Big Data. 
+#
           </div>
           </div>
 
@@ -29,7 +28,7 @@ const Projetpropage = () => {
 
     <div className='col'>
     <div class="cestmoipres" style={{ height: "200px",width: "50%" }}>
-          Après l'obtention de mon master, j'ai l'intention de considérer une carrière en tant qu'ingénieur dans les domaines de l'IA, du Big Data, de la sécurité informatique ou encore du DevOps. 
+#
           </div>
 
     </div>
