@@ -71,7 +71,7 @@ const Symfonyfront = () => {
           </div>
         </div>
         <div class="saut"></div>
-        <div class="container" style={{ height: "1350px" }}>
+        <div class="container">
         <img
             src="./symfonypage.png"
             alt="symfonypage"

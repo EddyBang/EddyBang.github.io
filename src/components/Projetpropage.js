@@ -24,7 +24,7 @@ const Projetpropage = () => {
           </div>
           <div className='col'>
           <div class="cestmoipres" style={{ height: "140px", width: "50%" }}>
-          reformule moi ca: J'intègre dès la rentrée prochaine (Octobre 2023) l'école Efrei à Paris en 3ème année de bachelor 3 développement web et application
+          J'intègre dès la rentrée prochaine (Octobre 2023) l'école Efrei à Paris en 3ème année de bachelor 3 développement web et application
 J'envisage de suivre 3 ans dans cette école afin d'acquérir un Mastère qui me permettra d'avoir un large panel de connaissances et de possibilités d'emplois.
           </div>
           </div>
