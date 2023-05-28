@@ -8,12 +8,24 @@ const Projetpropage = () => {
         <div className="row">
         <div class="moi" style={{ height: "100px" }}>
             <d>
-              <b> Ecole intégrée</b>
+              <b> Ecole </b>
             </d>
+            <img
+                    src="./logoefrei.png"
+                    alt="efrei"
+                    style={{
+                      width: "10%",
+                      borderRadius: "5%",
+                      border: "none",
+                      boxShadow: "none",
+                    }}
+                    className="image"
+                  ></img>          
           </div>
           <div className='col'>
           <div class="cestmoipres" style={{ height: "140px", width: "50%" }}>
-#
+          reformule moi ca: J'intègre dès la rentrée prochaine (Octobre 2023) l'école Efrei à Paris en 3ème année de bachelor 3 développement web et application
+J'envisage de suivre 3 ans dans cette école afin d'acquérir un Mastère qui me permettra d'avoir un large panel de connaissances et de possibilités d'emplois.
           </div>
           </div>
 
@@ -28,7 +40,7 @@ const Projetpropage = () => {
 
     <div className='col'>
     <div class="cestmoipres" style={{ height: "200px",width: "50%" }}>
-#
+    La question reste encore entière cependant je sais que je souhaiterai travailler dans le domaine du développement. Un poste de développeur pourrait tout à fait me convenir pour un début professionnel.
           </div>
 
     </div>
@@ -39,7 +51,7 @@ const Projetpropage = () => {
 
 
 
-
+<div className='saut'></div>
           <p style={{ fontWeight: "bold", fontSize: "12px", height: " 70px" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -55,6 +67,8 @@ const Projetpropage = () => {
           </p>
         </div>
       </div>
+      <div className='saut'></div>
+
         </div>
     );
 };

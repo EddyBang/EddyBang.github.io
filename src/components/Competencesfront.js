@@ -34,30 +34,15 @@ const Competencefront = () => {
                       style={{ width: "150px", height: "100px" }}
                     ></img>
                   </div>
-                  <div class="col">
-                    <img
-                      src="./mongodb.png"
-                      style={{ width: "120px", height: "110px" }}
-                    ></img>
-                  </div>
-                  <div class="col">
-                    <img
-                      src="./symfony.png"
-                      style={{ width: "110px", height: "120px" }}
-                    ></img>
-                  </div>
+
+
                   <div class="col">
                     <img
                       src="./nodejs.png"
                       style={{ width: "180px", height: "110px" }}
                     ></img>
                   </div>
-                  <div class="col">
-                    <img
-                      src="./mariadb.png"
-                      style={{ width: "350px", height: "110px" }}
-                    ></img>
-                  </div>
+
                   <div class="col">
                     <img
                       src="./csharp.png"
@@ -73,15 +58,10 @@ const Competencefront = () => {
                   <div class="col">
                     <img
                       src="./python.png"
-                      style={{ width: "120px", height: "110px" }}
+                      style={{ width: "110px", height: "110px" }}
                     ></img>
                   </div>
-                  <div class="col">
-                    <img
-                      src="./mysql.png"
-                      style={{ width: "140px", height: "120px" }}
-                    ></img>
-                  </div>
+
                 </div>
 
                 <br></br>
@@ -111,12 +91,7 @@ const Competencefront = () => {
                       style={{ width: "100px", height: "100px" }}
                     ></img>
                   </div>
-                  <div class="col">
-                    <img
-                      src="./react.png"
-                      style={{ width: "115px", height: "100px" }}
-                    ></img>
-                  </div>
+
                   <div class="col">
                     <img
                       src="./css.png"
@@ -126,6 +101,85 @@ const Competencefront = () => {
                 </div>
               </div>
             </div>
+
+        {/*BDD*/}
+            <div className="row">
+              <div class="col">
+                <p
+                  style={{
+                    fontSize: "20px",
+                    height: "60px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Base de données
+                </p>
+                <div class="row">
+                <div class="col">
+                    <img
+                      src="./mysql.png"
+                      style={{ width: "140px", height: "120px" }}
+                    ></img>
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./mongodb.png"
+                      style={{ width: "120px", height: "110px" }}
+                    ></img>
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./mariadb.png"
+                      style={{ width: "350px", height: "110px" }}
+                    ></img>
+                  </div>
+
+
+
+
+
+                </div>
+
+                <br></br>
+                <br></br>
+                <br></br>
+              </div>
+              <div class="col">
+                <p
+                  style={{
+                    fontSize: "20px",
+                    height: "60px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Frameworks
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <img
+                      src="./react.png"
+                      style={{ width: "150px", height: "100px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./symfony.png"
+                      style={{ width: "110px", height: "120px" }}
+                    ></img>
+                  </div>
+
+                  <div class="col">
+                    <img
+                      src="./angular.png"
+                      style={{ width: "100px", height: "100px" }}
+                    ></img>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/*Outils de sauvegardes/Logiciels*/}
 
             <div className="row">
@@ -264,7 +318,7 @@ const Competencefront = () => {
                 </p>
                 <div class="row">
                   <div class="col">Anglais-Niveau B1</div>
-                  <div class="col">Mandarin-Niveau C1</div>
+                  <div class="col">Mandarin-Niveau B1</div>
                 </div>
               </div>
             </div>

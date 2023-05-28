@@ -12,6 +12,9 @@ import Sicilylinespage from "./pages/Sicilylinespage";
 import Competences from "./pages/Competences";
 import JapaShop from "./pages/Japashop";
 import Portfolioreact from "./pages/Portofolioreact";
+import Symfony from "./pages/Symfony";
+import Android from "./pages/Android";
+import Angular from "./pages/Angular";
 
 /*Si jamais ton chemin c'est path = rien, il va nous amener dans Home.js*/
 /*Si jamais ton chemin c'est path = /about, il va nous amener dans About.js*/
@@ -36,6 +39,10 @@ const App = () => {
           <Route path="/competences" element={<Competences />} />
           <Route path="/japashop" element={<JapaShop />} />
           <Route path="/portfolioreact" element={<Portfolioreact />} />
+          <Route path="/symfony" element={<Symfony />} />
+          <Route path="/android" element={<Android />} />
+          <Route path="/angular" element={<Angular/>} />
+
 
         </Routes>
       </BrowserRouter>
