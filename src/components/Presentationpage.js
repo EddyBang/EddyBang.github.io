@@ -8,9 +8,9 @@ const Presentationpage = () => {
         <div className="row">
           <div className="col" style={{ width: "100%" }}>
             <img
-              src="./frontimggif.gif"
+              src="./space2.gif"
               alt="frontimggif"
-              style={{ width: "80%" }}
+              style={{ width: "80%", opacity: 0.7 }}
             ></img>
           </div>
           <div className="col">

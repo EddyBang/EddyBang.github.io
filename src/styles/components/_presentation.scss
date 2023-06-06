@@ -21,12 +21,12 @@ body{
 body::after {
   content: '';
   position: absolute;
-  background-image: url(../../assets/img/wallall3.gif);
+  background-image: url(../../assets/img/space4.gif);
   background-size:contain;
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-attachment:fixed;
-  opacity: 0.5;
+  opacity: 0.9;
   top: 0;
   left: 0;
   bottom: 0;

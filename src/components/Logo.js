@@ -3,12 +3,16 @@ import React from "react";
 const Logo = () => {
   return (
     <div>
-          <br></br>
-    
-    <div className="logo">
-      <img src="./logo192.png" alt="logo react"></img>
-      Portfolio
-    </div>
+      <br></br>
+
+      <div className="logo">
+        <img
+          src="./logospace.gif"
+          style={{ borderRadius: "50%" }}
+          alt="logo react"
+        ></img>
+        Portfolio
+      </div>
     </div>
   );
 };

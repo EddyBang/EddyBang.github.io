@@ -35,7 +35,8 @@ const ContactForm = () => {
         <div className="row">
           <div className="col">
             <img
-              src="contactform.gif"
+              src="contactform2.gif"
+              alt="img"
               style={{
                 width: "80%",
                 borderRadius: "5%",
