@@ -63,27 +63,31 @@ const ContactForm = () => {
                   />
                 </div>
               </div>
-              <div class="col">
-                <div class="from-group">
-                  <textarea
-                    name="message"
-                    rows="10"
-                    placeholder="Votre message"
-                  />
+              <div className="row">
+                <div class="col">
+                  <div class="from-group">
+                    <textarea
+                      name="message"
+                      rows="10"
+                      placeholder="Votre message"
+                    />
+                  </div>
                 </div>
               </div>
-              <div class="saut0"></div>
-              <div class="centrer">
-                <input
-                  type="submit"
-                  className="btn btn-info"
-                  value="Send Message"
-                  style={{
-                    width: "30%",
-                    height: "30%",
-                    color: "rgb(153, 42, 144)",
-                  }}
-                ></input>
+              <div className="row">
+                <div className="centrer">
+                  <input
+                    type="submit"
+                    className="btn btn-info"
+                    value="Envoyer"
+                    style={{
+                      width: "30%",
+                      height: "70%",
+                      fontSize: "100%",
+                      color: "rgb(153, 42, 144)",
+                    }}
+                  ></input>
+                </div>
               </div>
             </form>
           </div>

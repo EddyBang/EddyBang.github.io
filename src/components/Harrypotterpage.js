@@ -111,13 +111,12 @@ const Harrypotterpage = () => {
           </div>
         </div>
         <div class="saut"></div>
-        <div class="container" style={{ height: "1350px" }}>
+        <div class="container">
           <img
             src="./harrypotter.jpg"
             alt="harrypotter"
             style={{
-              width: "400px",
-              height: "400px",
+              width: "40%",
               borderRadius: "5%",
               boxShadow: "10px 10px 10px #aaaaaa",
             }}
@@ -127,8 +126,7 @@ const Harrypotterpage = () => {
             src="./harrypotter2.jpg"
             alt="harrypotter"
             style={{
-              width: "400px",
-              height: "400px",
+              width: "40%",
               borderRadius: "5%",
               boxShadow: "10px 10px 10px #aaaaaa",
             }}
@@ -138,8 +136,7 @@ const Harrypotterpage = () => {
             src="./harrypotter3.jpg"
             alt="harrypotter"
             style={{
-              width: "400px",
-              height: "400px",
+              width: "40%",
               borderRadius: "5%",
               boxShadow: "10px 10px 10px #aaaaaa",
             }}

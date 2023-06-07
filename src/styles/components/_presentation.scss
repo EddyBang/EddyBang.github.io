@@ -68,20 +68,19 @@ body::after {
 
   d {
     text-decoration: underline;
-    text-decoration-thickness: auto;
-    text-underline-offset: 11px;
-    text-decoration-thickness: 4px;
-    
+    text-underline-offset: 30%;
+    text-decoration-thickness: 12%;
+    font-size: 100%;
   }
   .cestmoipres {
     margin-left: auto;
     margin-right: auto;
-    font-size: 17px;
+    font-size: 100%;
     
   }
   .moi{
     height: 45px;
-    font-size: 30px;
+    font-size: 180%;
     margin-left: auto;
     margin-right: auto;
 }

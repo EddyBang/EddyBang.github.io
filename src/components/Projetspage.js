@@ -211,7 +211,7 @@ const Projetspage = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Portoflio en React
+                    PortfolioReact
                   </p>
 
                   <div class="exppro">
@@ -235,7 +235,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
-                      title="AndroidSicilylines 2023"
+                      title="AndroidSicilylines 2023 "
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>

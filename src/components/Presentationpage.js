@@ -43,7 +43,7 @@ const Presentationpage = () => {
               href="https://banggeddy.github.io/"
               style={{ textDecoration: "none", color: "#00BFFF" }}
             >
-              <button style={{ width: "auto", fontSize: "12px" }}>
+              <button style={{ width: "auto", fontSize: "70%" }}>
                 {" "}
                 Naviguer le Portfolio en HTML{" "}
               </button>
@@ -119,7 +119,7 @@ const Presentationpage = () => {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <button style={{ width: "auto", fontSize: "11px" }}>
+                <button style={{ width: "auto", fontSize: "70%" }}>
                   @BanggEddy{" "}
                 </button>
               </a>
@@ -140,7 +140,7 @@ const Presentationpage = () => {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <button style={{ width: "auto", fontSize: "11px" }}>
+                <button style={{ width: "auto", fontSize: "70%" }}>
                   @cookie02_10{" "}
                 </button>
               </a>
@@ -161,7 +161,7 @@ const Presentationpage = () => {
                 rel="noreferrer noopener"
                 target="_blank"
               >
-                <button style={{ width: "auto", fontSize: "11px" }}>
+                <button style={{ width: "auto", fontSize: "70%" }}>
                   @David LI
                 </button>
               </a>

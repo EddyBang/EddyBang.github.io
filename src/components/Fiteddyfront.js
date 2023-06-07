@@ -85,13 +85,13 @@ const Fiteddyfront = () => {
           </div>
         </div>
         <div class="saut"></div>
-        <div class="container" style={{ height: "1350px" }}>
+        <div class="container">
           <img
             src="./mvc.png"
             alt="bonbonfront"
             style={{
-              width: "500px",
-              height: "400px",
+              width: "40%",
+
               borderRadius: "5%",
               boxShadow: "10px 10px 10px #aaaaaa",
             }}
@@ -101,8 +101,8 @@ const Fiteddyfront = () => {
             src="./mvc2.png"
             alt="bonbon2front"
             style={{
-              width: "200px",
-              height: "400px",
+              width: "20%",
+
               borderRadius: "5%",
               boxShadow: "10px 10px 10px #aaaaaa",
             }}
@@ -112,8 +112,8 @@ const Fiteddyfront = () => {
             src="./mvc3.png"
             alt="bonbonfront3"
             style={{
-              width: "600px",
-              height: "400px",
+              width: "40%",
+
               borderRadius: "5%",
               boxShadow: "10px 10px 10px #aaaaaa",
             }}
