@@ -8,7 +8,7 @@ const Logo = () => {
       <div className="logo">
         <img
           src="./logospace.gif"
-          style={{ borderRadius: "50%" }}
+          style={{ borderRadius: "80%" }}
           alt="logo react"
         ></img>
         Portfolio

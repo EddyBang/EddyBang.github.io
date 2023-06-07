@@ -3,7 +3,6 @@ import React, { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 
 const Projetspage = () => {
- 
   return (
     <div>
       <div class="affich">
@@ -28,6 +27,7 @@ const Projetspage = () => {
                       border: "solid rgb(39, 158, 167) ",
                       boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                     }}
+                    title="Harry Potter 2022"
                     className="image"
                   ></img>
                 </NavLink>
@@ -62,6 +62,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="Haribo 2022"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -96,6 +97,7 @@ const Projetspage = () => {
                       border: "solid rgb(39, 158, 167) ",
                       boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                     }}
+                    title="FitEddy 2022"
                   ></img>
                 </NavLink>
                 <div class="saut0"></div>
@@ -128,6 +130,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="SicilylinesC# 2023"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -163,6 +166,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="JapaShop 2023"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -196,6 +200,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="ReactPortfolio 2023"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -216,9 +221,8 @@ const Projetspage = () => {
               </div>
             </div>
 
-
-{/* AAndroid & Symfony*/}
-<div className="row">
+            {/* AAndroid & Symfony*/}
+            <div className="row">
               <div className="col">
                 <div class="centrer">
                   <NavLink to="/android">
@@ -231,6 +235,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="AndroidSicilylines 2023"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -241,11 +246,12 @@ const Projetspage = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    AndroidSicilylines</p>
+                    AndroidSicilylines
+                  </p>
 
                   <div class="exppro">
                     <p>
-                    Application mobile avec Android Mobile App Developer Tools
+                      Application mobile avec Android Mobile App Developer Tools
                     </p>
                   </div>
                 </div>
@@ -262,6 +268,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="SymfonySicilylines 2023"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -276,14 +283,16 @@ const Projetspage = () => {
                   </p>
 
                   <div class="exppro">
-                    <p>Réservation de traversée sur Symfony avec MariaDB et PHP8</p>
+                    <p>
+                      Réservation de traversée sur Symfony avec MariaDB et PHP8
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
 
-{/* Angular*/}
-<div className="row">
+            {/* Angular*/}
+            <div className="row">
               <div className="col">
                 <div class="centrer">
                   <NavLink to="/angular">
@@ -296,6 +305,7 @@ const Projetspage = () => {
                         border: "solid rgb(39, 158, 167) ",
                         boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
                       }}
+                      title="Angular Portfolio 2023"
                     ></img>
                   </NavLink>
                   <div class="saut0"></div>
@@ -306,42 +316,39 @@ const Projetspage = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Portfolio en Angular </p>
+                    Portfolio en Angular{" "}
+                  </p>
 
                   <div class="exppro">
                     <p>
-                    J'ai créé un portfolio en autodidacte afin d'acquérir des compétences dans l'utilisation d'Angular.                    </p>
+                      J'ai créé un portfolio en autodidacte afin d'acquérir des
+                      compétences dans l'utilisation d'Angular.{" "}
+                    </p>
                   </div>
                 </div>
-              </div>  
+              </div>
             </div>
             <div className="saut"></div>
 
-<p style={{ fontWeight: "bold", fontSize: "12px"}}>
-<svg
-xmlns="http://www.w3.org/2000/svg"
-width="50"
-height="16"
-fill="currentColor"
-class="bi bi-c-circle"
-viewBox="0 0 16 16"
->
-
-<path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
-</svg>
-2023 David LI. All right Reserved
-</p>
-<div className="saut"></div>
+            <p style={{ fontWeight: "bold", fontSize: "12px" }}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="16"
+                fill="currentColor"
+                class="bi bi-c-circle"
+                viewBox="0 0 16 16"
+              >
+                <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
+              </svg>
+              2023 David LI. All right Reserved
+            </p>
+            <div className="saut"></div>
           </div>
-          
         </div>
-        
       </div>
-      
     </div>
   );
 };
 
 export default Projetspage;
-
-

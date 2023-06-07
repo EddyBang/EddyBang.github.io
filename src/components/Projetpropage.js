@@ -28,14 +28,24 @@ const Projetpropage = () => {
                 style={{ height: "140px", width: "50%" }}
               >
                 J'intègre dès la rentrée prochaine (Septembre 2023) l'école
-                Efrei à Paris en 3ème année de bachelor 3 développement web et
-                application J'envisage de suivre 3 ans dans cette école afin
+                Efrei à Paris en 3ème année de bachelor développement web et
+                application. J'envisage de suivre 3 ans dans cette école afin
                 d'acquérir un Mastère qui me permettra d'avoir un large panel de
                 connaissances et de possibilités d'emplois.
               </div>
+              <a
+                href="https://www.efrei.fr/programmes-experts/bachelor-concepteur-developpeur/"
+                style={{ textDecoration: "none", color: "#00BFFF" }}
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <button style={{ width: "auto", fontSize: "12px" }}>
+                  Efrei.fr
+                </button>
+              </a>
             </div>
           </div>
-
+          <div className="saut"></div>
           <div className="row">
             <div class="moi" style={{ height: "80px" }}>
               <d>

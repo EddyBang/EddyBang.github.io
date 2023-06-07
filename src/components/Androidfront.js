@@ -22,27 +22,39 @@ const Androidfront = () => {
                   Projets
                 </NavLink>
                 AndroidSicilyLines
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-android" viewBox="0 0 16 16">
-  <path d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.94 8.94 0 0 1 8 5a8.94 8.94 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/>
-</svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-android"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M2.76 3.061a.5.5 0 0 1 .679.2l1.283 2.352A8.94 8.94 0 0 1 8 5a8.94 8.94 0 0 1 3.278.613l1.283-2.352a.5.5 0 1 1 .878.478l-1.252 2.295C14.475 7.266 16 9.477 16 12H0c0-2.523 1.525-4.734 3.813-5.966L2.56 3.74a.5.5 0 0 1 .2-.678ZM5 10a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm6 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z" />
+                </svg>
                 2023
               </div>
 
               <div class="container">
                 <div class="exppro">
                   <p>
-                  Le but de cette activité est de mettre en pratique nos premières connaissances sur les applications mobiles en utilisant les outils de développement Android.                   </p>
+                    Le but de cette activité est de mettre en pratique nos
+                    premières connaissances sur les applications mobiles en
+                    utilisant les outils de développement Android.{" "}
+                  </p>
                   <p>
                     Source:
                     <a
                       href="https://github.com/BanggEddy/AndroidSicilyLines"
+                      rel="noreferrer noopener"
+                      target="_blank"
                       style={{
                         transition: "1s",
                         color: "#6B8E23",
                         textDecoration: "none !important;",
                       }}
                     >
-                      Consulter le projet
+                      GitHub
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
@@ -65,13 +77,13 @@ const Androidfront = () => {
                 </div>
               </div>
 
-              <p>Stack : Java  </p>
+              <p>Stack : Java </p>
             </div>
           </div>
         </div>
         <div class="saut"></div>
         <div class="container" style={{ height: "" }}>
-        <img
+          <img
             src="./android.png"
             alt="android"
             style={{
@@ -86,7 +98,7 @@ const Androidfront = () => {
             src="./android1.png"
             alt="android"
             style={{
-                width: "20%",
+              width: "20%",
 
               borderRadius: "5%",
               border: "solid rgb(39, 158, 167) ",
@@ -98,7 +110,7 @@ const Androidfront = () => {
             src="./android3.png"
             alt="android"
             style={{
-                width: "20%",
+              width: "20%",
 
               borderRadius: "5%",
               border: "solid rgb(39, 158, 167) ",
@@ -107,7 +119,7 @@ const Androidfront = () => {
           ></img>
           <div className="saut"></div>
 
-                    <p style={{ fontWeight: "bold", fontSize: "12px"}}>
+          <p style={{ fontWeight: "bold", fontSize: "12px" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="50"
@@ -116,12 +128,11 @@ const Androidfront = () => {
               class="bi bi-c-circle"
               viewBox="0 0 16 16"
             >
-                
               <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512Z" />
             </svg>
             2023 David LI. All right Reserved
           </p>
-<div className="saut"></div>
+          <div className="saut"></div>
         </div>
       </div>
     </div>
