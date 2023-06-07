@@ -1,57 +1,62 @@
-import React from 'react';
+import React from "react";
 
 const Projetpropage = () => {
-    return (
-        <div>
-            <div className="centrer">
+  return (
+    <div>
+      <div className="centrer">
         <div className="container">
-        <div className="row">
-        <div class="moi" style={{ height: "100px" }}>
-            <d>
-              <b> Ecole </b>
-            </d>
-            <img
-                    src="./logoefrei.png"
-                    alt="efrei"
-                    style={{
-                      width: "10%",
-                      borderRadius: "5%",
-                      border: "none",
-                      boxShadow: "none",
-                    }}
-                    className="image"
-                  ></img>          
-          </div>
-          <div className='col'>
-          <div class="cestmoipres" style={{ height: "140px", width: "50%" }}>
-          J'intègre dès la rentrée prochaine (Octobre 2023) l'école Efrei à Paris en 3ème année de bachelor 3 développement web et application
-J'envisage de suivre 3 ans dans cette école afin d'acquérir un Mastère qui me permettra d'avoir un large panel de connaissances et de possibilités d'emplois.
-          </div>
-          </div>
-
-        </div>
-
-<div className='row'>
-              <div class="moi" style={{ height: "80px" }}>
-            <d>
-              <b> Métier(s) envisagé(s)</b>
-            </d>
+          <div className="row">
+            <div class="moi" style={{ height: "100px" }}>
+              <d>
+                <b> Ecole </b>
+              </d>
+              <img
+                src="./logoefrei.png"
+                alt="efrei"
+                style={{
+                  width: "10%",
+                  borderRadius: "5%",
+                  border: "none",
+                  boxShadow: "none",
+                }}
+                className="image"
+              ></img>
+            </div>
+            <div className="col">
+              <div
+                class="cestmoipres"
+                style={{ height: "140px", width: "50%" }}
+              >
+                J'intègre dès la rentrée prochaine (Septembre 2023) l'école
+                Efrei à Paris en 3ème année de bachelor 3 développement web et
+                application J'envisage de suivre 3 ans dans cette école afin
+                d'acquérir un Mastère qui me permettra d'avoir un large panel de
+                connaissances et de possibilités d'emplois.
+              </div>
+            </div>
           </div>
 
-    <div className='col'>
-    <div class="cestmoipres" style={{ height: "200px",width: "50%" }}>
-    La question reste encore entière cependant je sais que je souhaiterai travailler dans le domaine du développement. Un poste de développeur pourrait tout à fait me convenir pour un début professionnel.
+          <div className="row">
+            <div class="moi" style={{ height: "80px" }}>
+              <d>
+                <b> Métier(s) envisagé(s)</b>
+              </d>
+            </div>
+
+            <div className="col">
+              <div
+                class="cestmoipres"
+                style={{ height: "200px", width: "50%" }}
+              >
+                La question reste encore entière cependant je sais que je
+                souhaiterai travailler dans le domaine du développement. Un
+                poste de développeur pourrait tout à fait me convenir pour un
+                début professionnel.
+              </div>
+            </div>
           </div>
 
-    </div>
-</div>
-
-
-
-
-
-
-<div className='saut'></div>
+          <div className="saut"></div>
           <p style={{ fontWeight: "bold", fontSize: "12px", height: " 70px" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -67,10 +72,9 @@ J'envisage de suivre 3 ans dans cette école afin d'acquérir un Mastère qui me
           </p>
         </div>
       </div>
-      <div className='saut'></div>
-
-        </div>
-    );
+      <div className="saut"></div>
+    </div>
+  );
 };
 
 export default Projetpropage;
