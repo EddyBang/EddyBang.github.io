@@ -15,6 +15,7 @@ import Portfolioreact from "./pages/Portofolioreact";
 import Symfony from "./pages/Symfony";
 import Android from "./pages/Android";
 import Angular from "./pages/Angular";
+import Vue from "./pages/Vue";
 
 /*Si jamais ton chemin c'est path = rien, il va nous amener dans Home.js*/
 /*Si jamais ton chemin c'est path = /about, il va nous amener dans About.js*/
@@ -41,9 +42,8 @@ const App = () => {
           <Route path="/portfolioreact" element={<Portfolioreact />} />
           <Route path="/symfony" element={<Symfony />} />
           <Route path="/android" element={<Android />} />
-          <Route path="/angular" element={<Angular/>} />
-
-
+          <Route path="/angular" element={<Angular />} />
+          <Route path="/vue" element={<Vue />} />
         </Routes>
       </BrowserRouter>
     </div>

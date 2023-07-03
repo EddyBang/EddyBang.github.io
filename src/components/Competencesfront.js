@@ -35,7 +35,6 @@ const Competencefront = () => {
                     ></img>
                   </div>
 
-
                   <div class="col">
                     <img
                       src="./nodejs.png"
@@ -61,7 +60,6 @@ const Competencefront = () => {
                       style={{ width: "110px", height: "110px" }}
                     ></img>
                   </div>
-
                 </div>
 
                 <br></br>
@@ -102,7 +100,7 @@ const Competencefront = () => {
               </div>
             </div>
 
-        {/*BDD*/}
+            {/*BDD*/}
             <div className="row">
               <div class="col">
                 <p
@@ -115,7 +113,7 @@ const Competencefront = () => {
                   Base de données
                 </p>
                 <div class="row">
-                <div class="col">
+                  <div class="col">
                     <img
                       src="./mysql.png"
                       style={{ width: "140px", height: "120px" }}
@@ -135,11 +133,6 @@ const Competencefront = () => {
                       style={{ width: "350px", height: "110px" }}
                     ></img>
                   </div>
-
-
-
-
-
                 </div>
 
                 <br></br>
@@ -174,6 +167,12 @@ const Competencefront = () => {
                     <img
                       src="./angular.png"
                       style={{ width: "100px", height: "100px" }}
+                    ></img>
+                  </div>
+                  <div class="col">
+                    <img
+                      src="./vueicon.png"
+                      style={{ width: "80px", height: "80px" }}
                     ></img>
                   </div>
                 </div>

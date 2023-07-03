@@ -327,6 +327,40 @@ const Projetspage = () => {
                   </div>
                 </div>
               </div>
+              <div className="col">
+                <div class="centrer">
+                  <NavLink to="/vue">
+                    <img
+                      src="./vue0.png"
+                      alt="angular"
+                      style={{
+                        width: "50%",
+                        borderRadius: "5%",
+                        border: "solid rgb(39, 158, 167) ",
+                        boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
+                      }}
+                      title="Angular Portfolio 2023"
+                    ></img>
+                  </NavLink>
+                  <div class="saut0"></div>
+                  <p
+                    style={{
+                      fontSize: "24px",
+                      height: "30px",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Portfolio en Vue.js{" "}
+                  </p>
+
+                  <div class="exppro">
+                    <p>
+                      J'ai créé un portfolio en autodidacte afin d'acquérir des
+                      compétences dans l'utilisation de Vue.js .{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="saut"></div>
 
