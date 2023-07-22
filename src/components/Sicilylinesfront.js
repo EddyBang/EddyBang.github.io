@@ -85,17 +85,6 @@ const Sicilylinesfront = () => {
         </div>
         <div class="saut"></div>
         <div class="container">
-          <img
-            src="./frontapp.png"
-            alt="bonbonfront"
-            style={{
-              width: "700px",
-              height: "400px",
-              borderRadius: "5%",
-              border: "solid rgb(39, 158, 167) ",
-              boxShadow: "1px 5px 12px 5px rgb(39, 158, 167)",
-            }}
-          ></img>
           <div class="saut"></div>
           <img
             src="./capp.png"

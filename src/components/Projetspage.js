@@ -122,7 +122,7 @@ const Projetspage = () => {
                 <div class="centrer">
                   <NavLink to="/sicilylinespage">
                     <img
-                      src="./frontapp.png"
+                      src="./capp.png"
                       alt="Sicilylines"
                       style={{
                         width: "80%",
@@ -141,7 +141,7 @@ const Projetspage = () => {
                       fontWeight: "bold",
                     }}
                   >
-                    Sicilylines
+                    SicilylinesC# .Net
                   </p>
 
                   <div class="exppro">
@@ -260,7 +260,7 @@ const Projetspage = () => {
                 <div class="centrer">
                   <NavLink to="/symfony">
                     <img
-                      src="./symfonypage.png"
+                      src="./frontapp.png"
                       alt="SymfonySicilylines"
                       style={{
                         width: "80%",

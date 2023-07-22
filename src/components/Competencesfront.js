@@ -31,7 +31,7 @@ const Competencefront = () => {
                   <div class="col">
                     <img
                       src="./php.png"
-                      style={{ width: "150px", height: "100px" }}
+                      style={{ width: "220px", height: "80px" }}
                     ></img>
                   </div>
 
