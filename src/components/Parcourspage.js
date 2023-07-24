@@ -139,7 +139,7 @@ const Parcourspage = () => {
                       <br></br>
                       Stage de première année
                     </p>
-                    <p>30 mai - 1 juillet 2022</p>
+                    <p>Juin - Juillet</p>
                     <div class="exppro" style={{ fontSize: "11px" }}>
                       <p>
                         Réalisation d’un site web de musculation avec
@@ -186,7 +186,7 @@ const Parcourspage = () => {
                       <br></br>
                       Stage de deuxième année
                     </p>
-                    <p>30 mai - 1 juillet 2022</p>
+                    <p>Janvier - Février</p>
                     <div class="exppro" style={{ fontSize: "11px" }}>
                       <p>
                         Réalisation d’un site web de vêtement en ReactJS en
